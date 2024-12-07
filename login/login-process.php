@@ -9,7 +9,7 @@ function login($username, $password) {
 
     if ($username === $user && $password === $pass) {
       fclose($users_available);
-      return '<p>Login Berhasil!<meta http-equiv = "refresh" content = "1; url = http://127.0.0.1:3000/home/homepage.html" /></p>';
+      return '<p>Login Berhasil!<meta http-equiv = "refresh" content = "1; url = http://127.0.0.1/home/homepage.html" /></p>';
     } else {
       fclose($users_available);
       return "Login Gagal!";
